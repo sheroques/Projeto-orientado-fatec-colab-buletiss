@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container h1 {
+  background: #640000;
+  color: white;
+  text-align: center;
+}
+
+.menu-container {
+  display: flex;
+  background: #640000;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.app-container * {
+  margin-top: 2rem;
+}
