@@ -26,3 +26,17 @@
 .app-container * {
   margin-top: 2rem;
 }
+
+.app-container {
+  text-align: center;
+}
+
+.img-profile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-profile img {
+  width: 250px;
+  height: 250px;
+}
