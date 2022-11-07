@@ -55,3 +55,78 @@
   margin-top: 5px;
   list-style-type: none;
 }
+
+/* Luiz profile Page */
+
+.luiz-profile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.luiz-profile h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Vinicius profile page */
+
+.vinicius-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.vinicius-profile h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.vinicius-profile img {
+  width: 500px;
+}
+
+/* Tabela de Curiosidades */
+
+.table-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.table-curiosidade table {
+  margin-top: 100px;
+  max-width: 100vmax;
+  width: 1200px;
+  text-align: left;
+}
+
+/* Filmes favoritos */
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.movie-conteudo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.movie-container h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
