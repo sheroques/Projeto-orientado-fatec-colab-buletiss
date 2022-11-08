@@ -1,102 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>
-      Entre em contato | Projeto Orientado | Sistemas Para Internet
-    </title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="nav-container">
-      <h1>Projeto Orientado</h1>
-      <div class="menu-container">
-        <a href="home.html">Home </a>
-        <a href="luizProfile.html">Luiz Alexandre </a>
-        <a href="viniciusProfile.html">Vinicius Souza </a>
-        <a href="tabelaDeCuriosidade.html">Tabela de curiosidades</a>
-        <a href="siteFavoritos.html">Sites Favoritos</a>
-        <a>Entre em contato conosco</a>
-      </div>
-    </div>
-    <div class="body-form">
-      <h2>Como voce prefere falar com a gente?</h2>
-      <p>E-mail:</p>
-      <ul>
-        <li>luizalexandre99@hotmail.com.br</li>
-        <li>vinicius1997feitosa@gmail.com</li>
-      </ul>
-      <p>Telefone:</p>
-      <p>Luiz Alexandre:</p>
-      <ul>
-        <li>(13)99724-7733</li>
-      </ul>
 
-      <p>Vinicius de Souza</p>
-      <ul>
-        <li>(13)98192-8505</li>
-      </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Entre em contato | Projeto Orientado | Sistemas Para Internet
+  </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <p>Github:</p>
-      <ul>
-        <li>
-          <a href="https://github.com/sheroques">Luiz Alexandre</a>
-        </li>
-        <li>
-          <a href="https://github.com/Buletiss">Vinicius de Souza</a>
-        </li>
-      </ul>
-      <h3>Se preferir mande uma mensagem direta:</h3>
-      <div class="formulario">
-        <form
-          action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php"
-        >
-          <p>
-            <label>Nome</label><br />
-            <input
-              type="text"
-              name="nome"
-              maxlength="45"
-              minlength="2"
-              placeholder="Digite seu Nome"
-            />
-          </p>
-          <p>
-            <label for="telefone">Telefone para contato</label><br />
-            <input
-              type="tel"
-              name="telefone"
-              id="telefone"
-              placeholder="Telefone"
-            />
-          </p>
-          <p>
-            <label for="email"> Insira o e-mail para contato</label
-            ><br />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-mail"
-            />
-          </p>
-          <p>
-            <label for="mensagem">Mensagem</label><br />
-            <textarea
-              name="mensagem"
-              id="mensagem"
-              placeholder="Digite uma mensagem"
-              maxlength="500"
-            ></textarea>
-          </p>
-          <button>Enviar</button>
-        </form>
-      </div>
+<body>
+  <div class="nav-container">
+    <h1>Projeto Orientado</h1>
+    <div class="menu-container">
+      <a href="home.html">Home </a>
+      <a href="luizProfile.html">Luiz Alexandre </a>
+      <a href="viniciusProfile.html">Vinicius Souza </a>
+      <a href="tabelaDeCuriosidade.html">Tabela de curiosidades</a>
+      <a href="siteFavoritos.html">Sites Favoritos</a>
+      <a>Entre em contato conosco</a>
     </div>
-  </body>
+  </div>
+  <div class="body-form">
+    <h2>Como voce prefere falar com a gente?</h2>
+    <div class="contato-container">
+      <table>
+        <th>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+        </th>
+        <tbody>
+          <tr>
+            <td>Luiz Alexandre: </td>
+            <td>luizalexandre99@hotmail.com.br</td>
+            <td>(13)99724-7733</td>
+          </tr>
+          <tr>
+            <td>Vinicius de Souza: </td>
+            <td>vinicius1997feitosa@gmail.com</td>
+            <td>(13)98192-8505</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Se preferir mande uma mensagem direta:</h3>
+    <div class="formulario">
+      <form action="http://hub.fatecrl.edu.br/sobrino/recebe-v2.php">
+        <p>
+          <label>Nome</label><br />
+          <input type="text" name="nome" maxlength="45" minlength="2" placeholder="Digite seu Nome" />
+        </p>
+        <p>
+          <label for="telefone">Telefone para contato</label><br />
+          <input type="tel" name="telefone" id="telefone" placeholder="Telefone" />
+        </p>
+        <p>
+          <label for="email"> Insira o e-mail para contato</label><br />
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+        </p>
+        <p>
+          <label for="mensagem">Mensagem</label><br />
+          <textarea name="mensagem" id="mensagem" placeholder="Digite uma mensagem" maxlength="500"></textarea>
+        </p>
+        <button>Enviar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>

@@ -11,10 +11,10 @@
 }
 
 .menu-container {
-  display: flex;
+  display: flex; /* display: flex serve para organizar os elementos dentro da pagina de forma dinâmica */
   background: #640000;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /* justify-content serve para alinhar os elementos no eixo principal //  space-evenly: ditribui os itens de forma igual com o mesmo espaçamento entre eles*/
 }
 
 .menu-container a {
@@ -47,7 +47,7 @@
 .body-form {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; /* flex-direction: ele defini de qual forma o display flex vai se comportar no caso ele esta deifnindo como coluna(column)*/
   margin-top: 20px;
 }
 
@@ -61,9 +61,7 @@
 .luiz-profile {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 0 auto;
   width: 600px;
 }
 
@@ -78,9 +76,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 50px auto 0 auto;
   width: 600px;
 }
 
@@ -110,23 +106,33 @@
   text-align: left;
 }
 
-/* Filmes favoritos */
+/* Sites favoritos */
 
-.movie-container {
+.sites-container {
   display: flex;
   flex-direction: column;
   margin: 30px;
   font-size: 20px;
 }
 
-.movie-conteudo-container {
+.sites-conteudo-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 50px;
 }
 
-.movie-container h2 {
-  margin-left: auto;
-  margin-right: auto;
+.sites-container h2 {
+  margin: 0 auto 0 auto;
+}
+
+/* Contato */
+
+.contato-container table {
+  position: relative; /* position serve para poder posicionar o elemento // relative diz a forma com que ele vai ser comportar diante outros elementos*/
+  top: 30px; /*top/bottom/left/right da espaçamento no  elemento saindo apenas o conteudo e não o espaço da div na pagina*/
+  margin: 50px;
+  text-align: left;
+  width: 800px;
+  max-width: 100vmax;
 }
